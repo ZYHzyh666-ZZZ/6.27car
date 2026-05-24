@@ -1,0 +1,36 @@
+# STM32 / MDK-ARM common ignores
+
+# Build outputs and IDE files
+/build/
+/DebugConfig/
+/project/
+
+# Compiled objects and maps
+*.axf
+*.o
+*.d
+*.map
+*.lst
+*.sct
+*.lnp
+*.objlist
+*.htm
+*.log
+*.bin
+*.hex
+*.elf
+
+# J-Link and logs
+JLinkLog.txt
+
+# Editor/IDE
+.vscode/
+*.user
+*.bak
+*.swp
+*.tmp
+
+# Windows
+Thumbs.db
+*.ini
+
